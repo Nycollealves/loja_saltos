@@ -1,0 +1,169 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.icons a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Menu de Categorias */
+.categories {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6347;
+    padding: 10px;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Banner Principal */
+.banner {
+    margin: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seção de Destaques */
+.highlights {
+    padding: 20px;
+    background-color: white;
+}
+
+.highlights h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.btn-ver-mais {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Seção de Novidades */
+.new-products {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.new-products h2 {
+    margin-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 20px;
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: white;
+    color: #ff6347;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-links,
+.social,
+.payment-methods {
+    margin-bottom: 20px;
+}
+
+.footer-links a,
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
