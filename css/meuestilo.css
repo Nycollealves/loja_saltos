@@ -32,7 +32,7 @@ header {
 
 .search-bar button {
     padding: 8px;
-    background-color: #ff6347;
+    background-color: #fcae55ad;
     color: white;
     border: none;
     cursor: pointer;
@@ -48,7 +48,7 @@ header {
 .categories {
     display: flex;
     justify-content: center;
-    background-color: #ff6347;
+    background-color: #fcae55ad;
     padding: 10px;
 }
 
@@ -99,7 +99,7 @@ header {
 }
 
 .product p {
-    color: #ff6347;
+    color: #fcae55ad;
     font-weight: bold;
 }
 
@@ -124,24 +124,24 @@ header {
     margin-bottom: 20px;
 }
 
-/* Newsletter */
-.newsletter {
+/* catálogo */
+.catalogo {
     padding: 20px;
-    background-color: #ff6347;
+    background-color: #fcae55ad;
     color: white;
     text-align: center;
 }
 
-.newsletter input {
+.catalogo input {
     padding: 10px;
     width: 300px;
     margin-right: 10px;
 }
 
-.newsletter button {
+.catalogo button {
     padding: 10px;
     background-color: white;
-    color: #ff6347;
+    color: #fcae55ad;
     border: none;
     cursor: pointer;
 }
@@ -165,5 +165,11 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+}
+.carousel {
+    width: 400px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+
 }
 
