@@ -28,19 +28,36 @@
 
     <!-- Menu de Categorias -->
     <nav class="categories">
-        <a href="#">Roupas</a>
-        <a href="#">Eletrônicos</a>
-        <a href="#">Casa</a>
+        <a href="#">Produtos em Destaque</a>
+        <a href="#">Saltos de Grife</a>
+        <a href="#">Saltos Importados</a>
+
         <a href="#">Promoções</a>
     </nav>
 
-    <!-- Banner Principal -->
-    <section class="banner">
-        <img src="banner.jpg" alt="Promoção Principal">
-    </section>
-
     <section>
     <h2>Produtos em Destaque</h2>
+    <div id="carouselExampleInterval" class="carousel " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/Imagem2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/Imagem3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Imagem4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
    </section>
 
@@ -82,16 +99,16 @@
                 <p>R$ 180,00</p>
             </div>
             <div class="product">
-                <img src="imagem1.jpg." alt="Produto 6">
+                <img src="img/imagem7.jpg" alt="Produto 6">
                 <h3>Produto 6</h3>
                 <p>R$ 220,00</p>
             </div>
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="newsletter">
-        <h2>Assine nossa Newsletter</h2>
+    <!-- catálogo -->
+    <section class="catalogo">
+        <h2>Assine nosso catálogo</h2>
         <input type="email" placeholder="Digite seu e-mail">
         <button>Assinar</button>
     </section>
@@ -109,12 +126,13 @@
             <a href="#">Twitter</a>
         </div>
         <div class="payment-methods">
-            <img src="visa.png" alt="Visa">
-            <img src="mastercard.png" alt="Mastercard">
-            <img src="paypal.png" alt="PayPal">
+        <div class="img">
+                <img src="img/visa.png" alt="visa">
+                <img src="img/mastercard.png" alt="Mastercard">
+                <img src="img/paypal.png" alt="PayPal">
+        </div>
         </div>
         <div class="contact-info">
-            <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
             <p>Telefone: (11) 1234-5678</p>
         </div>
     </footer>
